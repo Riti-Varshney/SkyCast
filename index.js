@@ -30,8 +30,8 @@ async function getWeather() {
           <p><strong>Location:</strong> ${data.location.name}, ${data.location.country}</p>
           <p><strong>Temperature:</strong> ${temp}°C</p>
           <p><strong>Condition:</strong> ${condition}</p>
-          <p><strong>Humidity:</strong> ${hum}</p>
-          <p><strong>Wind(km/h):</strong> ${wind}</p>
+          <p><strong>Humidity:</strong> ${hum}%</p>
+          <p><strong>Wind Speed:</strong> ${wind}km/h</p>
           <p><strong>Last Updates:</strong> ${update}</p>
           <img src="https:${icon}" alt="weather icon">
         `;
