@@ -11,13 +11,16 @@ body {
     background-position: center;
     height: 100vh;
     
+    
   }
   .box {
-    background: rgba(255, 255, 255, 0.1); /* semi-transparent background */
-    backdrop-filter: blur(10px); /* glass effect */
-    -webkit-backdrop-filter: blur(10px); /* for Safari support */
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px); 
+    background: radial-gradient(circle, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 100%);
+    -webkit-backdrop-filter: blur(10px); 
     border-radius: 20px;
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); /* soft glowing shadow */
+    box-shadow: 0 8px 32px 0 rgba(11, 13, 41, 0.477); 
+    text-shadow: -9px 4px 16px rgba(0,0,0,1);
     padding: 40px 30px;
     max-width: 350px;
     margin: auto;

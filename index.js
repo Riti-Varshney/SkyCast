@@ -1,3 +1,19 @@
+const stock = [
+  'url("bg.png")',
+  'url("bg2.png")',
+  'url("bg3.png")',
+  'url("bg4.png")',
+  'url("bg5.jpg")',
+  'url("bg6.png")',
+];
+let CI = 0;
+function changeBackground() {
+  const indexR = Math.floor(Math.random() * stock.length);
+  document.body.style.backgroundImage = stock[indexR];
+}
+setInterval(changeBackground, 3000);
+changeBackground();
+
 async function getWeather() {
     const location = document.getElementById('locationInput').value;
     const resultDiv = document.getElementById('weatherResult');
